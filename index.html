@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       
+        .header{        
+         width: 100%;
+         background-color: rgb(5, 65, 87);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+ }
+     .logo{
+         text-decoration: none;
+        font-weight: 500;
+        font-size: 25px;
+        color: #fff;
+    }
+            .navbar a{
+               font-size: 20px;
+               font-weight: 400;
+               text-decoration: none;
+               color: #fff;
+                margin-left: 60px; 
+            }
+            .navbar a .active{
+                background-color: linear-gradient(#130546);
+            }
+            .navbar a:hover{
+                color: blue;
+            }
+            .container{
+                display: flex;
+               padding: 90px 90px 90px 90px;
+               background-color: palevioletred;
+            }
+            .container .btn{
+                background-color: #4c60af;
+               border: none;
+               color: white;
+               padding: 10px 25px;
+               text-align: center;
+               border-radius: 15px;
+            }
+            .btn:hover{
+                width: 100px;
+                background-color:rgb(19, 136, 19);
+            }
+    </style>    
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="https://heroic-entremet-0cd918.netlify.app/"> Projects</a>
+            <a href="#">Contact</a>
+        </nav>       
+    </header> 
+    <div class="container">
+        <div>
+        <h2>Hi, I am Manasa</h2>
+        <h3>Full stack Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sequi, ut doloribus amet impedit modi quod debitis exercitationem expedita fugiat.</p>
+        <button class="btn">Hire Me</button>
+        </div>
+        <img width="150px" src="https://png.pngtree.com/png-clipart/20210606/original/pngtree-gray-web-placeholder-avatar-png-image_6398268.jpg" alt="">
+    </div>
+</body>
+</html>
